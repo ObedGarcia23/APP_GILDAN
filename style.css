@@ -1,0 +1,69 @@
+* {
+    margin: 0PX AUTO ;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #b3b3b3;
+}
+
+
+.Encabezado{
+   
+    display: flex; 
+    flex-direction: column;   
+}
+
+
+.Encabezado>.Test1> img{
+  max-width: 100%;
+  width: 50em;
+  height: 10em;
+}
+
+.Encabezado>.Test2{
+  display: block;
+}
+
+.Encabezado>.Test2 > img{
+  width: 50em;
+  height: 10em;
+}
+
+input[type=text], select {
+    
+    width: 100%;
+    padding: 12px  20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 94%;
+    background-color: #124C8B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
